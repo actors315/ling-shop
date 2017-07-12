@@ -2,7 +2,8 @@
 $config = [
     'id' => 'App',
     'aliases' => [
-        '@common' => dirname(__DIR__)
+        '@common' => dirname(__DIR__),
+        '@runtime' => dirname(__DIR__) . '/../runtime',
     ],
     'components' => [
         'redis' => [
