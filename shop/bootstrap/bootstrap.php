@@ -1,5 +1,6 @@
 <?php
 use lingyin\base\Ling;
+use lingyin\helpers\ArrayHelper;
 
 /**
  * Created by PhpStorm.
@@ -31,7 +32,7 @@ switch (ENVIRONMENT) {
 }
 
 require(__DIR__ . '/../../vendor/autoload.php');
-$config = ling\base\Ling::loadConfig(__DIR__.'/../../common/config/web.php');
-$config = ling\base\Ling::loadConfig(__DIR__ . '/../config/web.php');
+$config = Ling::loadConfig(__DIR__.'/../../common/config/web.php');
+$config = ArrayHelper::merge($config,Ling::loadConfig(__DIR__ . '/../config/web.php'));
 
 return $config;

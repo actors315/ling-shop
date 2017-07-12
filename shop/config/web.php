@@ -1,14 +1,11 @@
 <?php
 $config = [
-    'id' => 'App',
+    'id' => 'Shop',
     'basePath' => dirname(__DIR__),
     'aliases' => [
         '@shop' => dirname(__DIR__)
     ],
     'components' => [
-        'db' => [
-
-        ],
         'redis' => [
             'class' => 'lingyin\cache\redis\Cache',
             'keyPrefix' => 'mifan:',
