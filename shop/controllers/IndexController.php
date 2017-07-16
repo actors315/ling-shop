@@ -14,4 +14,9 @@ use lingyin\web\Controller;
 class IndexController extends Controller
 {
 
+    public function actionIndex()
+    {
+        echo 'Hello world!';
+    }
+
 }

@@ -1,6 +1,7 @@
 <?php
 $config = [
     'id' => 'Shop',
+    'controllerNamespace' => 'shop\controllers',
     'basePath' => dirname(__DIR__),
     'aliases' => [
         '@shop' => dirname(__DIR__)
