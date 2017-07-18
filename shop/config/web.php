@@ -1,10 +1,15 @@
 <?php
 $config = [
-    'id' => 'Shop',
+    'id' => 'shop',
     'controllerNamespace' => 'shop\controllers',
     'basePath' => dirname(__DIR__),
     'aliases' => [
         '@shop' => dirname(__DIR__)
+    ],
+    'modules' => [
+        'user' => [
+            'class' => 'shop\modules\user\Module'
+        ]
     ],
     'components' => [
         'redis' => [
