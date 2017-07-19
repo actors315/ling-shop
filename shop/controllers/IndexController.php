@@ -16,7 +16,7 @@ class IndexController extends Controller
 
     public function actionIndex()
     {
-        echo 'Hello world!';
+        return $this->render('index/index');
     }
 
 }

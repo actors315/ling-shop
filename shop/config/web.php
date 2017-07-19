@@ -21,6 +21,9 @@ $config = [
                 'database' => 3,
                 'password' => 'localpass',
             ]
+        ],
+        'view' => [
+            'defaultExtension' => 'html',
         ]
     ]
 ];
