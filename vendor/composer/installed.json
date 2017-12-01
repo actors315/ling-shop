@@ -1,0 +1,255 @@
+[
+    {
+        "name": "psr/log",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/log.git",
+            "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/log/zipball/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+            "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2016-10-10T12:19:37+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Log\\": "Psr/Log/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interface for logging libraries",
+        "homepage": "https://github.com/php-fig/log",
+        "keywords": [
+            "log",
+            "psr",
+            "psr-3"
+        ]
+    },
+    {
+        "name": "psr/http-message",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/http-message.git",
+            "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+            "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2016-08-06T14:39:51+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Http\\Message\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interface for HTTP messages",
+        "homepage": "https://github.com/php-fig/http-message",
+        "keywords": [
+            "http",
+            "http-message",
+            "psr",
+            "psr-7",
+            "request",
+            "response"
+        ]
+    },
+    {
+        "name": "aura/router",
+        "version": "3.x-dev",
+        "version_normalized": "3.9999999.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/auraphp/Aura.Router.git",
+            "reference": "bfcb784f112a11d3841e609f8a6eae1cbc9b7ae0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/auraphp/Aura.Router/zipball/bfcb784f112a11d3841e609f8a6eae1cbc9b7ae0",
+            "reference": "bfcb784f112a11d3841e609f8a6eae1cbc9b7ae0",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.0",
+            "psr/http-message": "~1.0",
+            "psr/log": "~1.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~5.7 || ~4.8",
+            "zendframework/zend-diactoros": "~1.0"
+        },
+        "time": "2017-07-21T23:53:49+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Aura\\Router\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Aura.Router Contributors",
+                "homepage": "https://github.com/auraphp/Aura.Router/contributors"
+            }
+        ],
+        "description": "Powerful, flexible web routing for PSR-7 requests.",
+        "homepage": "https://github.com/auraphp/Aura.Router",
+        "keywords": [
+            "psr-7",
+            "route",
+            "router",
+            "routing"
+        ]
+    },
+    {
+        "name": "smarty/smarty",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/smarty-php/smarty.git",
+            "reference": "511773ce6bb43f8b10429c6d924428c9469f8ec9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/smarty-php/smarty/zipball/511773ce6bb43f8b10429c6d924428c9469f8ec9",
+            "reference": "511773ce6bb43f8b10429c6d924428c9469f8ec9",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2"
+        },
+        "time": "2017-08-09T10:58:47+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.1.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "files": [
+                "libs/bootstrap.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-3.0"
+        ],
+        "authors": [
+            {
+                "name": "Monte Ohrt",
+                "email": "monte@ohrt.com"
+            },
+            {
+                "name": "Uwe Tews",
+                "email": "uwe.tews@googlemail.com"
+            },
+            {
+                "name": "Rodney Rehm",
+                "email": "rodney.rehm@medialize.de"
+            }
+        ],
+        "description": "Smarty - the compiling PHP template engine",
+        "homepage": "http://www.smarty.net",
+        "keywords": [
+            "templating"
+        ]
+    },
+    {
+        "name": "lingsoft/lingyin",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/actors315/lingsoft.git",
+            "reference": "ac3bf130e1328a4e970a12d05b6dcf1cbd7cac42"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/actors315/lingsoft/zipball/ac3bf130e1328a4e970a12d05b6dcf1cbd7cac42",
+            "reference": "ac3bf130e1328a4e970a12d05b6dcf1cbd7cac42",
+            "shasum": ""
+        },
+        "require": {
+            "aura/router": "^3.1",
+            "ext-redis": ">=2.2.0",
+            "php": ">=5.3.0",
+            "smarty/smarty": "^3.1"
+        },
+        "time": "2017-07-17T01:22:33+00:00",
+        "type": "ling-framework",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "lingyin\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache License 2.0"
+        ],
+        "authors": [
+            {
+                "name": "actors315",
+                "email": "xie.hj@lingyin99.cn"
+            }
+        ],
+        "description": "一个不成熟的轮子",
+        "homepage": "https://www.lingyin99.com",
+        "keywords": [
+            "ling",
+            "lingyin"
+        ]
+    }
+]

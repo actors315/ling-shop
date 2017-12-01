@@ -1,0 +1,28 @@
+{
+  "name": "lingsoft/lingyin",
+  "description": "一个不成熟的轮子",
+  "type": "ling-framework",
+  "license": "Apache License 2.0",
+  "keywords": [
+    "ling",
+    "lingyin"
+  ],
+  "homepage": "https://www.lingyin99.com",
+  "authors": [
+    {
+      "name": "actors315",
+      "email": "xie.hj@lingyin99.cn"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "ext-redis": ">=2.2.0",
+    "smarty/smarty": "^3.1",
+	"aura/router": "^3.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "lingyin\\": ""
+    }
+  }
+}

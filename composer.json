@@ -1,11 +1,11 @@
 {
-  "name": "lingsoft/ling-shop-basic",
+  "name": "lingsoft/ling-shop",
   "description": "又是一个商城",
   "keywords": ["shop", "商品", "B2C商城"],
   "homepage": "https://www.lingyin.shop",
   "type": "project",
   "minimum-stability": "dev",
   "require": {
-    "lingsoft/lingyin": "dev-master"
+    
   }
 }
